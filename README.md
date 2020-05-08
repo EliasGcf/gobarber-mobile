@@ -45,7 +45,7 @@ To see the **web client**, click here: [GoBarber Web](https://github.com/EliasGc
 
 ## 🚀 Technologies
 
-Technologies that I used to develop this web client
+Technologies that I used to develop this mobile client
 
 - [ReactJS](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
