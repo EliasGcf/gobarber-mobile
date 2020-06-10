@@ -10,7 +10,10 @@ declare module 'styled-components' {
       white: string;
       orange: string;
       grayHard: string;
+      gray: string;
       inputs: string;
+      shape: string;
+      blackMedium: string;
 
       error: string;
     };

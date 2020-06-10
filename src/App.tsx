@@ -14,7 +14,7 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={defaultTheme}>
       <NavigationContainer>
-        <StatusBar barStyle="light-content" backgroundColor="#312e38" />
+        <StatusBar barStyle="light-content" translucent />
         <AppProvider>
           <View style={{ backgroundColor: '#312e38', flex: 1 }}>
             <Routes />
