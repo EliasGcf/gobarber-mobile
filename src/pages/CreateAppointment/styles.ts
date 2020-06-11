@@ -148,3 +148,18 @@ export const HourText = styled.Text<HourTextProps>`
   font-family: ${({ theme }) => theme.fonts.regular};
   font-size: 16px;
 `;
+
+export const CreateAppointmentButton = styled(RectButton)`
+  height: 50px;
+  background: ${({ theme }) => theme.colors.orange};
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 24px 24px;
+`;
+
+export const CreateAppointmentButtonText = styled.Text`
+  font-family: ${({ theme }) => theme.fonts.medium};
+  font-size: 18px;
+  color: ${({ theme }) => theme.colors.inputs};
+`;
