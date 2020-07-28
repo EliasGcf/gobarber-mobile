@@ -166,10 +166,7 @@ const Profile: React.FC = () => {
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
         enabled
       >
-        <ScrollView
-          keyboardShouldPersistTaps="handled"
-          contentContainerStyle={{ flex: 1 }}
-        >
+        <ScrollView keyboardShouldPersistTaps="handled">
           <Container>
             <BackButton onPress={handleGoBack}>
               <Icon name="chevron-left" size={24} color={theme.colors.gray} />
